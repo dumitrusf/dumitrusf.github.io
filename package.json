@@ -1,0 +1,26 @@
+{
+  "name": "01-gdwfshtmlcssbootexaiii1b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "sass": "rm -f ./src/css && sass --watch --no-source-map ./src/scss/styles.scss ./src/css/styles.css",
+    "sass-tnu": "rm -rf ./src/css-tnu && sass --watch --no-source-map ./src/scss/TNU-styles.scss ./src/css-tnu/TNU-styles.css"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}

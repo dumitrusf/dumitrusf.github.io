@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!-- Declaration type HTML -->
+
+<!-- initiation of HTML -->
+
+<!-- #2 structuration html with metas and grid css -->
+<html lang="es">
+  <head>
+    <!-- basics meta -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>X-Station</title>
+    <!-- #2  structuration html with metas and grid css -->
+
+    <!-- basics meta -->
+
+    <!-- Favicon icon site web -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/src/assets/X-STATION favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/assets/X-STATION favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/src/assets/X-STATION favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="/src/assets/X-STATION favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="/src/assets/X-STATION favicon/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <!-- Favicon icon site web -->
+
+    <!-- #4 installation of Reset, Normalize, Bootstrap and our Styles  -->
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/node_modules/Normalize-css/normalize.css" />
+    <!-- Normalize CSS -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- Bootstrap CSS -->
+
+    <!-- reset installed -->
+    <link rel="stylesheet" href="node_modules/Reset-css/reset.css" />
+    <!-- reset installed -->
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./src/css-tnu/TNU-styles.css" />
+    <!-- My CSS -->
+
+    <!-- #4 installation of Reset, Normalize, Bootstrap and our Styles  -->
+  </head>
+
+  <body>
+    <!-- Top content -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar__div container-xs d-flex">
+          <ul class="d-sm-none navbar__ul">
+            <li>
+              <a
+                href="https://www.playstation.com/en-us/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/ps-svg-logo.svg"
+                />
+              </a>
+            </li>
+
+            <li>
+              <button
+                class="but button-nav navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <div class="logo-x-station">
+                  <h1>X - STATION</h1>
+                </div>
+                <!-- <img class="navbar__svg navbar__svg--big" src="/src/assets/img/svg/xstationlogoheader.svg" alt="New logo x-station"> -->
+              </button>
+            </li>
+
+            <li>
+              <a
+                href="https://www.xbox.com/en-US/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/xbox-svg-logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <!-- new design header with menu for tablet responsive #18 -->
+          <ul class="d-none d-sm-inline-flex d-lg-none navbar__ul">
+            <li>
+              <a
+                href="https://www.playstation.com/en-us/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/ps-svg-logo.svg"
+                />
+              </a>
+            </li>
+
+            <li>
+              <div class="but button-nav navbar-toggler">
+                <div class="logo-x-station">
+                  <h1>X - STATION</h1>
+                </div>
+                <!-- <img class="navbar__svg navbar__svg--big" src="/src/assets/img/svg/xstationlogoheader.svg" alt="New logo x-station"> -->
+              </div>
+            </li>
+
+            <li>
+              <a
+                href="https://www.xbox.com/en-US/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/xbox-svg-logo.svg"
+                />
+              </a>
+            </li>
+
+            <button
+              class="hamburguer d-none d-sm-inline-flex but-tab button-nav navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="hamburguer__div">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="white"
+                  class="hamburguer__i bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </div>
+              <!-- <img class="navbar__svg navbar__svg--big" src="/src/assets/img/svg/xstationlogoheader.svg" alt="New logo x-station"> -->
+            </button>
+          </ul>
+          <!-- new design header with menu for tablet responsive #18 -->
+
+          <!-- new design header with logo NOT MENU LIST for lap-desk responsive #19 -->
+          <ul class="d-none d-lg-inline-flex navbar__ul">
+            <li>
+              <a
+                href="https://www.playstation.com/en-us/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/ps-svg-logo.svg"
+                />
+              </a>
+            </li>
+
+            <li>
+              <div class="but button-nav navbar-toggler">
+                <div class="logo-x-station">
+                  <h1>X - STATION</h1>
+                </div>
+                <!-- <img class="navbar__svg navbar__svg--big" src="/src/assets/img/svg/xstationlogoheader.svg" alt="New logo x-station"> -->
+              </div>
+            </li>
+
+            <li>
+              <a
+                href="https://www.xbox.com/en-US/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="navbar__svg"
+                  src="/src/assets/img/svg/xbox-svg-logo.svg"
+                />
+              </a>
+            </li>
+
+            <button
+              class="hamburguer d-none d-lg-none d-md-inline-flex but-tab button-nav navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="hamburguer__div">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="white"
+                  class="hamburguer__i bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </div>
+              <!-- <img class="navbar__svg navbar__svg--big" src="/src/assets/img/svg/xstationlogoheader.svg" alt="New logo x-station"> -->
+            </button>
+
+            <!-- menu list from drop down for laptop to desk -->
+            <div
+              class="d-none d-sm-none d-md-none d-lg-inline-flex menus collapse navbar"
+            >
+              <ul class="menus__list navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">XBOX X|S</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="THE-NEW-UNION.html"
+                    >THE NEW UNION</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PS5</a>
+                </li>
+              </ul>
+            </div>
+            <!-- menu list from drop down for laptop to desk -->
+          </ul>
+          <!-- new design header with menu for lap-desk responsive #19 -->
+
+          <!-- menu list from drop down for mobile to tablet -->
+          <div
+            class="d-xl-none d-sm d-lg-none menus collapse navbar"
+            id="navbarSupportedContent"
+          >
+            <img
+              class="menus__svg menus__svg--ps"
+              src="/src/assets/img/svg/ps-svg-logo-grey.svg"
+              alt=""
+            />
+            <ul class="menus__list navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">XBOX X|S</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="THE-NEW-UNION.html"
+                  >THE NEW UNION</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PS5</a>
+              </li>
+            </ul>
+            <img
+              class="menus__svg menus__svg--xb"
+              src="/src/assets/img/svg/xbox-svg-logo-gray.svg"
+              alt=""
+            />
+          </div>
+          <!-- menu list from drop down for mobile to tablet -->
+        </div>
+      </nav>
+    </header>
+    <!-- Top content -->
+
+    <!-- Main content -->
+    <main>
+      <!-- Sec-1 main introduction to the new service TNU -->
+      <section class="intro">
+        <div class="intro__content container-sm">
+          <div class="intro__slogan">
+            <p class="intro__title">
+              <span>X</span> <span>-</span> <span>STATION</span>
+            </p>
+
+            <p>THE NEW UNION</p>
+          </div>
+
+          <div class="intro__logo">
+            <img
+              src="src/assets/img/TNU/Intro-Sec-1/TNU-logo.png"
+              alt="characters xbox"
+              class="tnu-logo"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Sec-1 main introduction to the new service TNU -->
+
+      <!-- Sec-2 banner union -->
+      <section class="banner">
+        <div class="banner__wrapper">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="src/assets/img/TNU/Sec-2-banner-union/union-desk.webp"
+            />
+            <source
+              media="(min-width: 992px)"
+              srcset="src/assets/img/TNU/Sec-2-banner-union/union-laptop.webp"
+            />
+            <source
+              media="(min-width: 576px)"
+              srcset="src/assets/img/TNU/Sec-2-banner-union/union-tablet.webp"
+            />
+            <img
+              class="d-block w-100 container-xxl"
+              src="src/assets/img/TNU/Sec-2-banner-union/union-mobile.webp"
+              alt="Ejemplo"
+            />
+          </picture>
+        </div>
+
+        <div class="union">
+          <div class="union__content container-xxl">
+            <div class="union__logo container-xxl">
+              <img
+                src="./src/assets/img/TNU/Sec-2-banner-union/union_studios_logos.webp"
+                alt=""
+              />
+            </div>
+
+            <img
+              src="src/assets/img/TNU/Sec-2-banner-union/Vector.png"
+              alt="Logo service TNU"
+            />
+
+            <p class="union__p union__p--1">
+              <span>"PLAYSTATION STUDIOS</span> love storytelling, it inspires
+              and drives everything we do.
+            </p>
+
+            <p class="union__p union__p--2">
+              Now Unified to <span>XBOX GAME STUDIOS</span> WE IMPROVE A BETTER
+              RELATIONSHIP WITH THE PLAYERS OF AROUND THE WORLD"
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Sec-2 banner union -->
+
+      <!-- Sec-3 Multiplatform service -->
+
+      <section class="service">
+        <div class="service__games">
+          <div class="service__games-head">
+            <div class="service__logo container-xxl">
+              <img
+                src="./src/assets/img/TNU/Sec-2-banner-union/union_studios_logos.webp"
+                alt=""
+              />
+            </div>
+
+            <p>X - STATION</p>
+
+            <p>BRING US A NEW BRAND MULTIPLATFORM SERVICE</p>
+          </div>
+
+          <div class="wrapper-kratos">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/kratos-service-desk.webp
+                "
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/kratos-service-laptop.webp
+                "
+              />
+              <source
+                media="(min-width: 576px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/kratos-service-tablet.webp
+                "
+              />
+              <img
+                class="d-block w-100 container-xxl"
+                src="src/assets/img/TNU/Sec-3-Service-TNU/kratos-service-mobile.webp"
+                alt="Ejemplo"
+              />
+            </picture>
+          </div>
+
+          <div class="service__games-foot">
+            <p>GAMES FROM EVERYWHERE</p>
+
+            <p>ALL THE GAMES WE LOVE IN ONE SERVICE</p>
+          </div>
+        </div>
+
+        <div class="entertainment">
+          <div class="entertainment__shadow container-fluid">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/service-entertainment-desk.webp
+                "
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/service-entertainment-laptop.webp
+                "
+              />
+              <source
+                media="(min-width: 576px)"
+                srcset="
+                  src/assets/img/TNU/Sec-3-Service-TNU/service-entertainment-tablet.webp
+                "
+              />
+              <img
+                class="d-block img-fluid container-xxl"
+                src="src/assets/img/TNU/Sec-3-Service-TNU/service-entertainment-mobile.webp"
+                alt="Ejemplo"
+              />
+            </picture>
+          </div>
+
+          <div class="entertainment__content w-100 container-xxl">
+            <div class="entertainment__columns">
+              <div class="entertainment__column">
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/netflix.svg"
+                  alt="Netflix"
+                />
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/disney-plus.svg"
+                  alt="Disney+"
+                />
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/Prime-Video.svg"
+                  alt="Prime Video"
+                />
+              </div>
+
+              <div class="entertainment__column">
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/HBO-Max.svg"
+                  alt="HBOMAX"
+                />
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/Apple-TV-plus.svg"
+                  alt="AppleTV+"
+                />
+                <img
+                  src="src/assets/img/TNU/Sec-3-Service-TNU/paramount-plus.svg"
+                  alt="Paramount+"
+                />
+              </div>
+            </div>
+
+            <div class="entertainment__paragraph">
+              <p>THE BEST FAVORITE STREAMING SERVICES</p>
+
+              <p>
+                ALSO TO CHOOSE 2 OF Them to SPEND THE WEEK WITH THE FAMILY AT 0
+                COST THANKS TO THE PLAN OF THE NEW UNION
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sec-3 Multiplatform service -->
+
+      
+    </main>
+    <!-- main content -->
+
+    <!-- footer content -->
+    <footer class="footer">
+      <div class="footer__ps">
+        <img
+          src="src/assets/img/footer/footer-ps/logo-ps-footer.webp"
+          alt="Imagen predeterminada"
+        />
+
+        <img
+          src="src\assets\img\footer\footer-ps/char-ps-footer.webp"
+          alt="Imagen predeterminada"
+        />
+      </div>
+
+      <div class="logo-footer">
+        <div class="logo-footer__x-station">
+          <h2><span>X</span> - <span>STATION</span></h2>
+        </div>
+      </div>
+
+      <div class="text">
+        <div>from having to choose just one, to having both everywhere</div>
+
+      </div>
+
+      <div class="char-xb">
+        <div class="char-xb-shadow">
+          <picture>
+            <source
+              srcset="src/assets/img/footer/footer-xb/xb-char-tablet.webp"
+              media="(min-width: 576px)"
+            />
+            <source
+              srcset="src/assets/img/footer/footer-xb/xb-char-laptop.webp"
+              media="(min-width: 992px)"
+            />
+            <source
+              srcset="src/assets/img/footer/footer-xb/xb-char-desk.webp"
+              media="(min-width: 1440px)"
+            />
+            <img
+              src="src/assets/img/footer/footer-xb/xb-char-mobile.webp"
+              alt="characters xbox"
+              class="img-fluid"
+            />
+          </picture>
+        </div>
+      </div>
+    </footer>
+    <!-- footer content -->
+
+    <!-- #4 Bootstrap js -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- #4 Bootstrap js -->
+  </body>
+  <!-- end of HTML -->
+</html>
